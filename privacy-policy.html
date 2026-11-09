@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidade - Ev AmpTimer</title>
+    <title>Política de Privacidade - EV AmpTimer</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,7 +15,7 @@
             background-color: #f9f9f9;
         }
         h1, h2 {
-            color: #4ADE80;
+            color: #16A34A;
         }
         .section {
             background-color: #fff;
@@ -36,84 +35,109 @@
             color: #666;
             margin-bottom: 20px;
         }
+        .highlight {
+            background-color: #F0FDF4;
+            border-left: 4px solid #16A34A;
+            padding: 12px 16px;
+            border-radius: 4px;
+            margin: 12px 0;
+        }
+        ul { padding-left: 22px; }
+        li { margin-bottom: 6px; }
     </style>
 </head>
 <body>
-    <h1>Política de Privacidade - Ev AmpTimer</h1>
-    <p class="date">Última atualização: 7 de março de 2025</p>
-    
+    <h1>Política de Privacidade — EV AmpTimer</h1>
+    <p class="date">Última atualização: 9 de novembro de 2026</p>
+
     <div class="section">
-        <h2>Introdução</h2>
-        <p>Bem-vindo à política de privacidade da aplicação Ev AmpTimer. Este documento descreve como recolhemos, utilizamos e protegemos as suas informações quando utiliza a nossa aplicação.</p>
-        <p>A sua privacidade é importante para nós, e estamos comprometidos em proteger e respeitar os seus dados pessoais.</p>
+        <h2>Resumo</h2>
+        <div class="highlight">
+            <strong>O EV AmpTimer não recolhe, não transmite e não partilha quaisquer dados pessoais.</strong>
+            Não existem contas, servidores, análise de utilização nem publicidade. Tudo o que
+            introduz fica guardado apenas no seu telemóvel.
+        </div>
+        <p>
+            Esta política aplica-se à aplicação EV AmpTimer para Android
+            (<code>com.evamptimer.app</code>) e à versão web instalável (PWA).
+        </p>
     </div>
-    
+
     <div class="section">
-        <h2>Informações que Recolhemos</h2>
-        <p>A nossa aplicação recolhe os seguintes tipos de informações:</p>
+        <h2>Que dados são guardados</h2>
+        <p>
+            A app guarda localmente no seu dispositivo, no armazenamento próprio da aplicação,
+            apenas o seguinte:
+        </p>
         <ul>
-            <li><strong>Informações de Localização:</strong> Com a sua permissão, recolhemos dados de localização para detetar o país onde se encontra e configurar automaticamente os parâmetros de voltagem adequados. Esta informação não é armazenada nos nossos servidores.</li>
-            <li><strong>Preferências de Utilização:</strong> Armazenamos localmente (no seu dispositivo) as suas configurações e cálculos anteriores para melhorar a sua experiência.</li>
-            <li><strong>Dados de Diagnóstico:</strong> Informações sobre como utiliza a aplicação e eventuais erros que possam ocorrer, para melhorarmos o serviço.</li>
+            <li><strong>Preferências</strong> — capacidade da bateria, tipo de carregamento (monofásico ou trifásico), potência contratada, limite do carregador, eficiência de carregamento e janela de vazio.</li>
+            <li><strong>Histórico</strong> — os últimos 5 planos de carregamento que decidir guardar.</li>
+            <li><strong>Idioma</strong> — português ou inglês.</li>
+        </ul>
+        <p>
+            Estes dados nunca saem do dispositivo. Não são enviados para nenhum servidor, não são
+            sincronizados na nuvem e não são acessíveis ao programador. São eliminados quando
+            desinstalar a aplicação ou limpar os dados da app nas definições do Android.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Dados que NÃO são recolhidos</h2>
+        <ul>
+            <li><strong>Localização</strong> — a app não pede nem usa a sua localização. Não há deteção automática de país; o número de fases é escolhido manualmente por si.</li>
+            <li><strong>Dados pessoais</strong> — nome, email, telefone, contactos, contas de utilizador: nada disto é pedido ou guardado.</li>
+            <li><strong>Dados de utilização ou diagnóstico</strong> — não existem ferramentas de análise, relatórios de erros automáticos nem identificadores de publicidade.</li>
+            <li><strong>Dados do veículo</strong> — a app não se liga ao automóvel, não usa OBD nem APIs de fabricante. A carga atual e a carga pretendida são valores que introduz manualmente.</li>
         </ul>
     </div>
-    
+
     <div class="section">
-        <h2>Como Utilizamos as Informações</h2>
-        <p>As informações recolhidas são utilizadas para:</p>
+        <h2>Permissões e para que servem</h2>
         <ul>
-            <li>Fornecer e personalizar o serviço de acordo com as suas necessidades</li>
-            <li>Melhorar a aplicação com base na utilização e feedback</li>
-            <li>Detetar e resolver problemas técnicos</li>
-            <li>Fornecer notificações relevantes relacionadas com o carregamento do seu veículo</li>
+            <li><strong>Notificações</strong> (<code>POST_NOTIFICATIONS</code>, <code>SCHEDULE_EXACT_ALARM</code>) — apenas se ativar o botão "Lembrar-me à hora de início". Servem para o avisar à hora a que deve ligar o carregador. Pode recusar ou revogar esta permissão a qualquer momento sem perder nenhuma outra funcionalidade.</li>
+            <li><strong>Internet</strong> (<code>INTERNET</code>) — necessária para instalar e atualizar a app. O cálculo, o histórico e os lembretes funcionam sem ligação à rede.</li>
         </ul>
+        <p>
+            A app não pede acesso a localização, câmara, microfone, contactos, agenda, ficheiros
+            ou sensores.
+        </p>
     </div>
-    
+
     <div class="section">
-        <h2>Armazenamento de Dados</h2>
-        <p>A maioria dos dados é armazenada apenas localmente no seu dispositivo. Não armazenamos as suas configurações ou histórico de cálculos nos nossos servidores.</p>
-        <p>Para o funcionamento da deteção automática de país, utilizamos temporariamente a sua localização, mas esta informação não é armazenada após a conclusão da operação.</p>
+        <h2>Serviços de terceiros</h2>
+        <p>
+            A aplicação não inclui SDKs de publicidade, de análise ou de rastreio, e não envia
+            dados para terceiros. As ligações externas presentes na app (Play Store, PayPal,
+            Revolut, email) só são abertas quando toca nelas, e passam a ser regidas pelas
+            políticas de privacidade desses serviços.
+        </p>
     </div>
-    
+
     <div class="section">
-        <h2>Permissões</h2>
-        <p>A aplicação solicita as seguintes permissões:</p>
-        <ul>
-            <li><strong>Localização:</strong> Utilizada para detetar o país e configurar automaticamente os parâmetros de voltagem.</li>
-            <li><strong>Internet:</strong> Necessária para a geolocalização e funcionalidades online.</li>
-            <li><strong>Notificações:</strong> Para alertar sobre a conclusão do carregamento ou outras informações relevantes.</li>
-        </ul>
+        <h2>Os seus direitos</h2>
+        <p>
+            Como não há dados recolhidos nem armazenados fora do seu dispositivo, não existe
+            informação pessoal sua em posse do programador para aceder, corrigir, exportar ou
+            eliminar. Para apagar todos os dados da app basta desinstalá-la ou limpar o
+            armazenamento da aplicação nas definições do Android.
+        </p>
+        <p>
+            Se tiver dúvidas, pode contactar-nos através do email indicado na página da
+            aplicação na Play Store.
+        </p>
     </div>
-    
+
     <div class="section">
-        <h2>Partilha de Informações</h2>
-        <p>Não vendemos, trocamos ou transferimos de qualquer outra forma as suas informações pessoais a terceiros.</p>
-        <p>A funcionalidade de partilha de resultados apenas transmite os dados de cálculo específicos que escolher partilhar, sem incluir informações pessoais.</p>
+        <h2>Alterações a esta política</h2>
+        <p>
+            Se esta política for alterada, a data de atualização no topo é revista e a nova
+            versão passa a acompanhar a aplicação. Alterações que impliquem recolha de dados
+            serão comunicadas na descrição das novidades da versão.
+        </p>
     </div>
-    
-    <div class="section">
-        <h2>Os Seus Direitos</h2>
-        <p>Tem o direito de:</p>
-        <ul>
-            <li>Aceder a quaisquer dados pessoais que possamos ter sobre si</li>
-            <li>Corrigir quaisquer informações imprecisas</li>
-            <li>Solicitar a eliminação dos seus dados</li>
-            <li>Retirar o consentimento para a recolha de dados a qualquer momento</li>
-        </ul>
-    </div>
-    
-    <div class="section">
-        <h2>Alterações a Esta Política</h2>
-        <p>Podemos atualizar esta política de privacidade periodicamente. Recomendamos que reveja regularmente para se manter informado sobre como protegemos as suas informações.</p>
-    </div>
-    
-    <div class="section">
-        <h2>Contacto</h2>
-        <p>Se tiver questões sobre esta política de privacidade ou sobre as suas informações pessoais, entre em contacto connosco através da Play Store ou do email indicado na página da aplicação.</p>
-    </div>
-    
+
     <div class="footer">
-        <p>&copy; 2025 Ev AmpTimer. Todos os direitos reservados.</p>
+        <p>© 2026 EV AmpTimer. Todos os direitos reservados.</p>
     </div>
 </body>
 </html>
